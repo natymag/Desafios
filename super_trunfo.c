@@ -21,7 +21,7 @@ int main() {
         scanf("%s", &codigo);
 
         printf("Informe o Nome da Cidade: ");
-        scanf(" %[^\n]", &nomeCidade); // Lê até a quebra de linha (permite nomes com espaço)
+        scanf("%s", &nomeCidade);
 
         printf("Informe a População: ");
         scanf("%d", &populacao);
@@ -35,8 +35,6 @@ int main() {
         printf("Informe o Número de Pontos Turísticos: ");
         scanf("%d", &pontosTuristicos);
 
-        printf("\n");
-
         printf("=== Carta 2 ===\n");
 
         printf("Informe o Estado (letra de A a H):");
@@ -46,7 +44,7 @@ int main() {
         scanf("%s", &codigo2);
 
         printf("Informe o Nome da Cidade: ");
-        scanf(" %[^\n]", &nomeCidade2); // Lê até a quebra de linha (permite nomes com espaço)
+        scanf("%s", &nomeCidade2);
 
         printf("Informe a População: ");
         scanf("%d", &populacao2);
